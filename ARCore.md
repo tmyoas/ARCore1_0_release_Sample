@@ -57,7 +57,7 @@ GooglePlayからARCoreを端末にDL
 - 4: http://tks-yoshinaga.hatenablog.com/entry/2017/09/19/170800
 - 5: http://yuhintosh.hateblo.jp/entry/2018/03/14/014205
 - 6: https://qiita.com/yando/items/0cd2daaf1314c0674bbe
--　7:　https://developers.google.com/ar/develop/unity/guides/hello-ar-sample
+- 7: https://developers.google.com/ar/develop/unity/guides/hello-ar-sample
 
 ARKitができること
 
@@ -81,3 +81,6 @@ ARKitができないこと
 ### Git
 github管理のためにしたこと
 - 1: http://tech.guitarrapc.com/entry/2017/07/14/031046#Unity-%E3%81%B8%E3%81%AE%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E5%B0%8E%E5%85%A5
+
+### あとで読む
+https://unitylist.com/p/9z4/ar-core-utils
