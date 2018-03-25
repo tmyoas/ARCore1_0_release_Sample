@@ -49,6 +49,14 @@ GooglePlayからARCoreを端末にDL
 -> 挙動が謎。Colliderの大きさY方向にでかい&dotに反応している?
 -> TrackedPlaneVisualizerのTransformの値を変えてみる -> あんま変わらない
 -> いろいろやってみると、andyの物理演算の値が共有されてるっぽいのと、mesh Colliderの当たり判定が想定以上にY軸方向にプラスにあるのが問題っぽい
+-> というか見えてないけどColliderがでかい、のでmesh colliderつけてみる -> 反応しない
+-> つーかmesh colliderめっちゃ重い
+-> 8を見るに、mesh colliderは動くものに設定するものではないらしい `オブジェクトを動かしている場合（車など）、メッシュコライダーは使用できません。代わりに、プリミティブコライダーを使用する必要があります。この場合、 Generate Colliders 設定を無効にしてください。`
+-> primitive collider (cube)をつけて、目測でサイズを設定
+-> primitiveに円柱はない & capsuleはheightとradiusしかない(radius=0だと線になる?)
+
+### 次にやりたいこと
+- 平面の面積測定して、オブジェクトサイズより大きいとき置かない(警告のポップアップを出す)
 
 ### 参考
 - 1: https://developers.google.com/ar/develop/unity/quickstart
@@ -58,6 +66,7 @@ GooglePlayからARCoreを端末にDL
 - 5: http://yuhintosh.hateblo.jp/entry/2018/03/14/014205
 - 6: https://qiita.com/yando/items/0cd2daaf1314c0674bbe
 - 7: https://developers.google.com/ar/develop/unity/guides/hello-ar-sample
+- 8: https://docs.unity3d.com/jp/current/Manual/class-Mesh.html 
 
 ARKitができること
 
@@ -84,3 +93,4 @@ github管理のためにしたこと
 
 ### あとで読む
 https://unitylist.com/p/9z4/ar-core-utils
+

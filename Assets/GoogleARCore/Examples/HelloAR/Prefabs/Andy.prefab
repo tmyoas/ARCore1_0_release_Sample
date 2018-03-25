@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4280309514915974}
   - component: {fileID: 136422641367795176}
   - component: {fileID: 54678105279787432}
+  - component: {fileID: 65068542072078160}
   m_Layer: 0
   m_Name: Andy
   m_TagString: Untagged
@@ -258,6 +259,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!65 &65068542072078160
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1190091649889860}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.18, z: 0.1}
+  m_Center: {x: 0, y: 0.09, z: 0}
 --- !u!136 &136422641367795176
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -266,8 +279,8 @@ CapsuleCollider:
   m_GameObject: {fileID: 1190091649889860}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 1
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}

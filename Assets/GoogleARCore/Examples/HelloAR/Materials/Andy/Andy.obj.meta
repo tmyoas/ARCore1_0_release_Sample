@@ -13,6 +13,7 @@ ModelImporter:
     2300000: Andy_GEO
     3300000: Andy_GEO
     4300000: Andy_GEO
+    6400000: Andy_GEO
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -57,6 +58,7 @@ ModelImporter:
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
