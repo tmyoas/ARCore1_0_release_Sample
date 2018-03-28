@@ -57,6 +57,7 @@ GooglePlayからARCoreを端末にDL
 
 ### 次にやりたいこと
 - 平面の面積測定して、オブジェクトサイズより大きいとき置かない(警告のポップアップを出す)
+- テストの実行(参考: 9)
 
 ### 参考
 - 1: https://developers.google.com/ar/develop/unity/quickstart
@@ -67,6 +68,7 @@ GooglePlayからARCoreを端末にDL
 - 6: https://qiita.com/yando/items/0cd2daaf1314c0674bbe
 - 7: https://developers.google.com/ar/develop/unity/guides/hello-ar-sample
 - 8: https://docs.unity3d.com/jp/current/Manual/class-Mesh.html 
+- 9: https://www.slideshare.net/hirotoimoto1/unityunittest
 
 ARKitができること
 
