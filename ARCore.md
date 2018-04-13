@@ -58,6 +58,15 @@ AppleになるとARKit
 ### 次にやりたいこと
 - 平面の面積測定して、オブジェクトサイズより大きいとき置かない(警告のポップアップを出す)
 - テストの実行(参考: 9)
+- 文字を表示 -> 背景に応じて文字色を変化
+  - ARでドキュメントを読むイメージ
+    - 背景色つければよくない? -> 透過率が0ではないイメージ
+  - テキスト領域の背景の中央値を取って反転とか?
+    - 背景 = 空間画像 + テキストボックスの背景色
+    - むしろ背景:const = 空間画像:variable + テキストボックスの背景色:これを決める の方がいいかも
+- 画面中央の物体を認識して説明をポップアップ表示
+  - 現実の物体とARのみの物体を同じように扱うイメージ
+  - エッジ検出 -> 範囲特定 -> 矩形トリミング -> google画像検索 -> 説明取ってくる みたいなフロー?
 
 ### 参考
 - 1: https://developers.google.com/ar/develop/unity/quickstart
@@ -67,7 +76,7 @@ AppleになるとARKit
 - 5: http://yuhintosh.hateblo.jp/entry/2018/03/14/014205
 - 6: https://qiita.com/yando/items/0cd2daaf1314c0674bbe
 - 7: https://developers.google.com/ar/develop/unity/guides/hello-ar-sample
-- 8: https://docs.unity3d.com/jp/current/Manual/class-Mesh.html 
+- 8: https://docs.unity3d.com/jp/current/Manual/class-Mesh.html
 - 9: https://www.slideshare.net/hirotoimoto1/unityunittest
 
 ### Git
